@@ -1,0 +1,19 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+header li a {
+    text-decoration: unset;
+}
+
+.jumbo-contain {
+    height: 300px;
+    overflow: hidden;
+
+
+    img {
+        top: 0;
+        overflow: hidden;
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+}
