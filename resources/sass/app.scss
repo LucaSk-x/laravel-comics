@@ -105,8 +105,24 @@ footer {
         background-color: #0282f9;
         height: 50px;
     }
-    .my-card-price-product {
-        background-color: #55ba59;
-        color: rgb(186, 222, 187);
+    .my-card-price {
+        .my-card-price-product {
+            background-color: #55ba59;
+            color: rgb(186, 222, 187);
+            border-bottom: 1px solid #428f44;
+            border-left: 3px solid #428f44;
+        }
+    }
+}
+
+
+.bottom-main-prodotti {
+    background-color: #f6f6f6;
+    padding: 2rem 0 8rem;
+    a {
+        text-decoration: unset;
+    }
+    .border-bottom {
+        border-bottom: 1 px solid gray;
     }
 }

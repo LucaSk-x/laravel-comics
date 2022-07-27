@@ -5,4 +5,5 @@
 @section('page_content')
     
     @include('prodotti.partialProdotti.topMain')
+    @include('prodotti.partialProdotti.bottomMain')
 @endsection

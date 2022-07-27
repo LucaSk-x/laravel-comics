@@ -13,7 +13,7 @@
             <ul class="nav">
                 @foreach ($collection as $item)
                     <li class="nav-item">
-                        <a class="text-uppercase p-2" href="#"> {{$item}}</a>
+                        <a class="text-uppercase p-2" href="/"> {{$item}}</a>
                     </li>
                 @endforeach
             </ul>
