@@ -1,3 +1,7 @@
+@php
+    $collection = ['characters', 'comics', 'movies', 'tv', 'games', 'collectibles', 'video', 'fans', 'news', 'shop']
+@endphp
+
 <div class="container">
     <div class="nav-container d-flex justify-content-between py-3">
         <div class="let-nav">

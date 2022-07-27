@@ -19,3 +19,93 @@
   aspect-ratio: 16/9;
 }
 
+/* main card generator */
+
+.top-main {
+  background-color: #1c1c1c;
+}
+
+.top-main .img-contain {
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.top-main .card-img {
+  overflow: hidden;
+}
+
+.top-main .card-img img {
+  width: 95px;
+}
+
+.top-main .load-btn button {
+  background-color: #0282f9;
+  border: transparent;
+  padding: 0.5rem 2rem;
+}
+
+.top-main .current-series {
+  top: 0px;
+  transform: -50%;
+  transform: translate(0, -50%);
+  background-color: #0282f9;
+}
+
+/* blue banner */
+
+.main-contain-banner-blue {
+  background-color: #0282f9;
+}
+
+.main-contain-banner-blue .img-contain {
+  width: 50px;
+}
+
+.main-contain-banner-blue .img-contain img {
+  height: 100%;
+}
+
+/* footer */
+
+footer {
+  background-image: url("/images/footer-bg.jpg");
+}
+
+footer li {
+  font-size: 0.8rem;
+}
+
+footer .top-footer-right {
+  overflow: hidden;
+}
+
+footer .top-footer-right .dc-logo {
+  overflow: hidden;
+  overflow: hidden;
+  right: 0;
+  height: 400px;
+  top: -15%;
+}
+
+/* bottom footer */
+
+.bgg {
+  background-color: #303030;
+}
+
+.bgg button {
+  background-color: #303030;
+  border: 2px solid #0282f9;
+  padding: 5px;
+}
+
+.top-main-prodotti .blue-bar {
+  background-color: #0282f9;
+  height: 50px;
+}
+
+.top-main-prodotti .my-card-price-product {
+  background-color: #55ba59;
+  color: rgb(186, 222, 187);
+}
+

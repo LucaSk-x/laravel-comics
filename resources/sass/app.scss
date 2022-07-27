@@ -17,3 +17,96 @@ header li a {
         aspect-ratio: 16/9;
     }
 }
+/* main card generator */
+.top-main {
+    background-color: #1c1c1c;
+
+    .img-contain {
+        aspect-ratio: 1;
+        overflow: hidden;
+    }
+
+    .card-img {
+        overflow: hidden;
+
+        img {
+            width: 95px;
+        }
+    }
+    .load-btn {
+        button {
+            background-color: #0282f9;
+            border: transparent;
+            padding: .5rem 2rem;
+        }
+    }
+    .current-series {
+        top: 0px;
+        transform: -50%;
+        transform: translate(0, -50%);
+        background-color: #0282f9;
+    }
+}
+
+
+
+/* blue banner */
+.main-contain-banner-blue {
+    background-color: #0282f9;
+
+    .img-contain {
+        width: 50px;
+
+            img {
+                height: 100%;
+            }
+        }
+}
+
+
+
+/* footer */
+footer {
+    background-image:  url('/images/footer-bg.jpg');
+
+    li {
+        font-size: .8rem;
+    }
+
+    .top-footer-right {
+        overflow: hidden;      
+
+        .dc-logo {
+            overflow: hidden;
+            overflow: hidden;
+            right: 0;
+            height: 400px;
+            top: -15%;
+        }
+    }
+
+}
+
+
+
+/* bottom footer */
+.bgg {
+    background-color: #303030;
+
+    button {
+        background-color: #303030;
+        border: 2px solid #0282f9;
+        padding: 5px;
+    }
+}
+
+.top-main-prodotti{
+    .blue-bar {
+        background-color: #0282f9;
+        height: 50px;
+    }
+    .my-card-price-product {
+        background-color: #55ba59;
+        color: rgb(186, 222, 187);
+    }
+}

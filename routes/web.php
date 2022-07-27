@@ -16,14 +16,28 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-        $collection = config('headerLink');
-    return view('home', [
-        'collection' => $collection
-    ]);
+
+        $comics = config('comics');
+    return view('home', ['comics' => $comics]);
+
 })->name('home');
 
 
 
-Route::get('/product', function () {
-    return view('product');
-})->name('product');
+Route::get('/{id}', function ($id) {
+    $comics = config('comics');
+
+    $foundProduct = null;
+    foreach($comics as $i => $comic) {
+        if($comic['id'] === intval($id)) {
+            $foundProduct = $comic;
+            break;
+        }
+    }
+
+    if(is_null($foundProduct)) {
+        abort("404");
+    }
+
+    return view('prodotti.show',['product' => $foundProduct]);
+})->name('products.show');
